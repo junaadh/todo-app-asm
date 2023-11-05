@@ -18,10 +18,10 @@ ld -o server server.o -lSystem -syslibroot $(xcrun -sdk macosx --show-sdk-path) 
 
 ### functions
  
- [x] support get requests
- [ ] support post requests
- [ ] add persitant state
- [ ] ability to add/remove items
- [x] able to shutdown server from browser
+ * [x] support get requests
+ * [ ] support post requests
+ * [ ] add persitant state
+ * [ ] ability to add/remove items
+ * [x] able to shutdown server from browser
 
 **Extension of [WebServer](https://github.com/junaadh/WebServer)**
